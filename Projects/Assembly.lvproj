@@ -72,6 +72,7 @@
 		<Item Name="Check Dispenser Communication.vi" Type="VI" URL="../../Classes/Module/Check Dispenser Communication.vi"/>
 		<Item Name="compression pin map test.vi" Type="VI" URL="../../compression pin map test.vi"/>
 		<Item Name="Aerotech.lvlib" Type="Library" URL="../../../../../Aerotech.lvlib"/>
+		<Item Name="Dispenser Test.vi" Type="VI" URL="../Dispenser Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -424,6 +425,9 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
@@ -478,15 +482,23 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Initialize.vi"/>
-			<Item Name="Close.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Close.vi"/>
-			<Item Name="Initiate Dispense.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Action-Status/Initiate Dispense.vi"/>
-			<Item Name="Configure Pressure.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Configure/Configure Pressure.vi"/>
-			<Item Name="GetAxisParameterDouble.vi" Type="VI" URL="../../../../../../Program Files (x86)/Aerotech/A3200/LabVIEW/2010/Parameters/GetAxisParameterDouble.vi"/>
-			<Item Name="Connect.vi" Type="VI" URL="../../../../CMU gantry/Drivers/Aerotech A3200/Initialize/Connect.vi"/>
-			<Item Name="Disconnect.vi" Type="VI" URL="../../../../CMU gantry/Drivers/Aerotech A3200/Initialize/Disconnect.vi"/>
-			<Item Name="ExecuteCommand.vi" Type="VI" URL="../../../../CMU gantry/Drivers/Aerotech A3200/Commands/ExecuteCommand.vi"/>
-			<Item Name="MoveAbsMultiple.vi" Type="VI" URL="../../../../../Downloads/CMU gantry (2)/CMU gantry/Drivers/Aerotech A3200/Motion/MoveAbsMultiple.vi"/>
+			<Item Name="Aerotech.lvlib" Type="Library" URL="../../../../Aerotech.lvlib"/>
+			<Item Name="Connect.vi" Type="VI" URL="../../../CMU gantry/Drivers/Aerotech A3200/Initialize/Connect.vi"/>
+			<Item Name="Disconnect.vi" Type="VI" URL="../../../CMU gantry/Drivers/Aerotech A3200/Initialize/Disconnect.vi"/>
+			<Item Name="ExecuteCommand.vi" Type="VI" URL="../../../CMU gantry/Drivers/Aerotech A3200/Commands/ExecuteCommand.vi"/>
+			<Item Name="MoveAbsMultiple.vi" Type="VI" URL="../../../../Downloads/CMU gantry (2)/CMU gantry/Drivers/Aerotech A3200/Motion/MoveAbsMultiple.vi"/>
+			<Item Name="Z Go.vi" Type="VI" URL="../../../CMU gantry/Classes/Controller/Motion/Z Go.vi"/>
+			<Item Name="Obtain Control Cluster.vi" Type="VI" URL="../../../CMU gantry/Classes/Controller/Obtain Control Cluster.vi"/>
+			<Item Name="XY Go.vi" Type="VI" URL="../../../CMU gantry/Classes/Controller/Motion/A3200/XY Go.vi"/>
+			<Item Name="Circular.vi" Type="VI" URL="../../../CMU gantry/Classes/Controller/Motion/Circular.vi"/>
+			<Item Name="Release Control Cluster.vi" Type="VI" URL="../../../CMU gantry/Classes/Controller/Release Control Cluster.vi"/>
+			<Item Name="Sensor Dispense.lvclass" Type="LVClass" URL="../../../CMU gantry/Projects/Sensor Dispense.lvclass"/>
+			<Item Name="Assembly Tray.lvclass" Type="LVClass" URL="../../../CMU gantry/Classes/Workspace/Carrier Tray/Assembly Tray.lvclass"/>
+			<Item Name="Dispenser.lvclass" Type="LVClass" URL="../../../CMU gantry/Classes/Controller/Dispenser/Dispenser.lvclass"/>
+			<Item Name="Routine Enum.ctl" Type="VI" URL="../../../CMU gantry/Classes/Routine/Routine Enum.ctl"/>
+			<Item Name="Fixture Enum.ctl" Type="VI" URL="../../../CMU gantry/Classes/Workspace/Fixture Enum.ctl"/>
+			<Item Name="Assembly Run.lvclass" Type="LVClass" URL="../../../CMU gantry/Classes/Assembly/Assembly Run.lvclass"/>
+			<Item Name="EFD Ultimus V.lvlib" Type="Library" URL="../../../EFD Ultimus V/EFD Ultimus V.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
