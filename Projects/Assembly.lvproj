@@ -73,6 +73,7 @@
 		<Item Name="compression pin map test.vi" Type="VI" URL="../../compression pin map test.vi"/>
 		<Item Name="Aerotech.lvlib" Type="Library" URL="../../../../../Aerotech.lvlib"/>
 		<Item Name="Dispenser Test.vi" Type="VI" URL="../Dispenser Test.vi"/>
+		<Item Name="dispensetest.vi" Type="VI" URL="../dispensetest.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
