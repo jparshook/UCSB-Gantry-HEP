@@ -32,14 +32,11 @@
 				<Item Name="Pick and Place.lvclass" Type="LVClass" URL="../../Classes/Routine/Pick and Place/Pick and Place.lvclass"/>
 				<Item Name="SecureRelease Syringe.lvclass" Type="LVClass" URL="../../Classes/Routine/Secure Syringe/SecureRelease Syringe.lvclass"/>
 				<Item Name="Routine.lvclass" Type="LVClass" URL="../../Classes/Routine/Routine.lvclass"/>
-				<Item Name="6 inch CAD Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/CAD Dispense/6 inch CAD Dispense.lvclass"/>
-				<Item Name="6 Inch Iterative Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/Iterative Dispense/6 inch/6 Inch Iterative Dispense.lvclass"/>
 				<Item Name="8 Inch Iterative Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/Iterative Dispense/8 inch/8 Inch Iterative Dispense.lvclass"/>
 				<Item Name="Sensor Dispense.lvclass" Type="LVClass" URL="../Sensor Dispense.lvclass"/>
 			</Item>
 			<Item Name="Controllers" Type="Folder">
 				<Item Name="Edmund Optics.lvclass" Type="LVClass" URL="../../Classes/Controller/Camera/Edmund Optics/Edmund Optics.lvclass"/>
-				<Item Name="Ultimus V.lvclass" Type="LVClass" URL="../../Classes/Controller/Dispenser/Ultimus V/Ultimus V.lvclass"/>
 				<Item Name="NI-DAQ.lvclass" Type="LVClass" URL="../../Classes/Controller/I-O/NI-DAQ/NI-DAQ.lvclass"/>
 				<Item Name="Dispenser.lvclass" Type="LVClass" URL="../../Classes/Controller/Dispenser/Dispenser.lvclass"/>
 				<Item Name="Camera.lvclass" Type="LVClass" URL="../../Classes/Controller/Camera/Camera.lvclass"/>
@@ -48,7 +45,6 @@
 				<Item Name="Arduino.lvclass" Type="LVClass" URL="../../Classes/Controller/I-O/Arduino/Arduino.lvclass"/>
 				<Item Name="A3200.lvclass" Type="LVClass" URL="../../Classes/Controller/Motion/A3200/A3200.lvclass"/>
 				<Item Name="Controller.lvclass" Type="LVClass" URL="../../Classes/Controller/Controller.lvclass"/>
-				<Item Name="ZMotionDispense.vi" Type="VI" URL="../../../../Desktop/V6/Assembly/Assembly/ZMotionDispense.vi"/>
 			</Item>
 			<Item Name="Components" Type="Folder">
 				<Item Name="Baseplate.lvclass" Type="LVClass" URL="../../Classes/Components/Baseplate/Baseplate.lvclass"/>
@@ -64,14 +60,12 @@
 		</Item>
 		<Item Name="Glue Testing" Type="Folder">
 			<Item Name="CircleTest.vi" Type="VI" URL="../../../../Desktop/V6/Fixture/Fixture/CircleTest.vi"/>
-			<Item Name="Untitled 3.vi" Type="VI" URL="../../../../Desktop/V6/Fixture/Fixture/Untitled 3.vi"/>
 			<Item Name="Untitled 4.vi" Type="VI" URL="../../../../Desktop/V6/Fixture/Fixture/Untitled 4.vi"/>
 			<Item Name="GlueTest.vi" Type="VI" URL="../../../../Desktop/V6/Fixture/Fixture/GlueTest.vi"/>
 			<Item Name="parse.vi" Type="VI" URL="../../../../Desktop/V6/Fixture/Fixture/parse.vi"/>
 		</Item>
 		<Item Name="Check Dispenser Communication.vi" Type="VI" URL="../../Classes/Module/Check Dispenser Communication.vi"/>
 		<Item Name="compression pin map test.vi" Type="VI" URL="../../compression pin map test.vi"/>
-		<Item Name="Aerotech.lvlib" Type="Library" URL="../../../../../Aerotech.lvlib"/>
 		<Item Name="Dispenser Test.vi" Type="VI" URL="../Dispenser Test.vi"/>
 		<Item Name="dispensetest.vi" Type="VI" URL="../dispensetest.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -160,8 +154,6 @@
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="DAQmx Write (Digital 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U32 NChan 1Samp).vi"/>
 				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
-				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
@@ -370,26 +362,13 @@
 				<Item Name="IVA Unit2String.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Unit2String.vi"/>
 				<Item Name="IVA Store Caliper Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Caliper Results.vi"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Simple Grid Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Simple Grid Descriptor"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Public/Initialize.vi"/>
-				<Item Name="Digital Write.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Public/Peripherals/Digital/Digital Write.vi"/>
-				<Item Name="Digital Write 1 Chan.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Public/Peripherals/Digital/Digital Write 1 Chan.vi"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Public/Close.vi"/>
-				<Item Name="Digital Read.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Public/Peripherals/Digital/Digital Read.vi"/>
-				<Item Name="Digital Read 1 Chan.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Public/Peripherals/Digital/Digital Read 1 Chan.vi"/>
-				<Item Name="Platform.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Private/Type Defs/Platform.ctl"/>
-				<Item Name="Interface.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Private/Type Defs/Interface.ctl"/>
-				<Item Name="TCP Config.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Private/Device/Type Defs/TCP Config.ctl"/>
-				<Item Name="Channels.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Private/Device/Type Defs/Channels.ctl"/>
-				<Item Name="LINX Device Config.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Private/Device/Type Defs/LINX Device Config.ctl"/>
-				<Item Name="LINX Ref.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/LINX/Private/Type Defs/LINX Ref.ctl"/>
 				<Item Name="IVA Clear Coordsys Errors.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Clear Coordsys Errors.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
@@ -425,13 +404,15 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-			</Item>
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
+				<Item Name="LMH-LINX.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/LINX/LMH-LINX.lvlib"/>
+				<Item Name="Write.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Write.vi"/>
+				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Smart Open.vi"/>
+				<Item Name="Reset myRIO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Utilities/vis/Reset myRIO.vi"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Read.vi"/>
+				<Item Name="IMAQ Convert Point to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Point to ROI"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -455,51 +436,23 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="EnableMultiple.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/EnableMultiple.vi"/>
-			<Item Name="RampRateMultiple.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/RampRateMultiple.vi"/>
-			<Item Name="RampRateSingle.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/RampRateSingle.vi"/>
-			<Item Name="DisableMultiple.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/DisableMultiple.vi"/>
-			<Item Name="Disconnect.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Initialize/Disconnect.vi"/>
-			<Item Name="AbortMultiple.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/AbortMultiple.vi"/>
-			<Item Name="Freerun.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/Freerun.vi"/>
-			<Item Name="FreerunSingle.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/FreerunSingle.vi"/>
-			<Item Name="FreerunMultiple.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/FreerunMultiple.vi"/>
-			<Item Name="MoveIncSingle.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/MoveIncSingle.vi"/>
-			<Item Name="WaitSingle.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/WaitSingle.vi"/>
-			<Item Name="MoveAbs.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/MoveAbs.vi"/>
-			<Item Name="MoveAbsSingle.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/MoveAbsSingle.vi"/>
-			<Item Name="WaitMultiple.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/WaitMultiple.vi"/>
-			<Item Name="ExecuteCommand.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Commands/ExecuteCommand.vi"/>
-			<Item Name="RampRateCoordinated.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/RampRateCoordinated.vi"/>
-			<Item Name="RetrieveDiagPacket.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Status/RetrieveDiagPacket.vi"/>
-			<Item Name="ControllerDiagPacket.ctl" Type="VI" URL="../../Drivers/Aerotech A3200/Status/ControllerDiagPacket.ctl"/>
-			<Item Name="AxisDiagPacket.ctl" Type="VI" URL="../../Drivers/Aerotech A3200/Status/AxisDiagPacket.ctl"/>
-			<Item Name="ConvertDiagPacket.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Status/ConvertDiagPacket.vi"/>
-			<Item Name="Connect.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Initialize/Connect.vi"/>
-			<Item Name="CircularCenter.vi" Type="VI" URL="../../Drivers/Aerotech A3200/Motion/CircularCenter.vi"/>
-			<Item Name="CAD Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/CAD Dispense/CAD Dispense.lvclass"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Aerotech.lvlib" Type="Library" URL="../../../../Aerotech.lvlib"/>
-			<Item Name="Connect.vi" Type="VI" URL="../../../CMU gantry/Drivers/Aerotech A3200/Initialize/Connect.vi"/>
-			<Item Name="Disconnect.vi" Type="VI" URL="../../../CMU gantry/Drivers/Aerotech A3200/Initialize/Disconnect.vi"/>
-			<Item Name="ExecuteCommand.vi" Type="VI" URL="../../../CMU gantry/Drivers/Aerotech A3200/Commands/ExecuteCommand.vi"/>
-			<Item Name="MoveAbsMultiple.vi" Type="VI" URL="../../../../Downloads/CMU gantry (2)/CMU gantry/Drivers/Aerotech A3200/Motion/MoveAbsMultiple.vi"/>
-			<Item Name="Z Go.vi" Type="VI" URL="../../../CMU gantry/Classes/Controller/Motion/Z Go.vi"/>
-			<Item Name="Obtain Control Cluster.vi" Type="VI" URL="../../../CMU gantry/Classes/Controller/Obtain Control Cluster.vi"/>
-			<Item Name="XY Go.vi" Type="VI" URL="../../../CMU gantry/Classes/Controller/Motion/A3200/XY Go.vi"/>
-			<Item Name="Circular.vi" Type="VI" URL="../../../CMU gantry/Classes/Controller/Motion/Circular.vi"/>
-			<Item Name="Release Control Cluster.vi" Type="VI" URL="../../../CMU gantry/Classes/Controller/Release Control Cluster.vi"/>
-			<Item Name="Sensor Dispense.lvclass" Type="LVClass" URL="../../../CMU gantry/Projects/Sensor Dispense.lvclass"/>
-			<Item Name="Assembly Tray.lvclass" Type="LVClass" URL="../../../CMU gantry/Classes/Workspace/Carrier Tray/Assembly Tray.lvclass"/>
-			<Item Name="Dispenser.lvclass" Type="LVClass" URL="../../../CMU gantry/Classes/Controller/Dispenser/Dispenser.lvclass"/>
-			<Item Name="Routine Enum.ctl" Type="VI" URL="../../../CMU gantry/Classes/Routine/Routine Enum.ctl"/>
-			<Item Name="Fixture Enum.ctl" Type="VI" URL="../../../CMU gantry/Classes/Workspace/Fixture Enum.ctl"/>
-			<Item Name="Assembly Run.lvclass" Type="LVClass" URL="../../../CMU gantry/Classes/Assembly/Assembly Run.lvclass"/>
-			<Item Name="EFD Ultimus V.lvlib" Type="Library" URL="../../../EFD Ultimus V/EFD Ultimus V.lvlib"/>
+			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Aerotech/A3200/LabVIEW/2010/Bin/Aerotech.A3200.dll"/>
+			<Item Name="Aerotech.lvlib" Type="Library" URL="../../Drivers/Aerotech A3200/Aerotech.lvlib"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Initialize.vi"/>
+			<Item Name="Initiate Dispense.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Action-Status/Initiate Dispense.vi"/>
+			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Configure Pressure.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Configure/Configure Pressure.vi"/>
+			<Item Name="Close.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Close.vi"/>
+			<Item Name="EFD Ultimus V.lvlib" Type="Library" URL="../../Drivers/EFD Ultimus V/EFD Ultimus V.lvlib"/>
+			<Item Name="PythonVersionsEnum.ctl" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Connectivity/Python/support/PythonVersionsEnum.ctl"/>
+			<Item Name="ToPythonVersionString.vi" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Connectivity/Python/support/ToPythonVersionString.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
