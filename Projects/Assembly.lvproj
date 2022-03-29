@@ -32,7 +32,6 @@
 				<Item Name="Pick and Place.lvclass" Type="LVClass" URL="../../Classes/Routine/Pick and Place/Pick and Place.lvclass"/>
 				<Item Name="SecureRelease Syringe.lvclass" Type="LVClass" URL="../../Classes/Routine/Secure Syringe/SecureRelease Syringe.lvclass"/>
 				<Item Name="Routine.lvclass" Type="LVClass" URL="../../Classes/Routine/Routine.lvclass"/>
-				<Item Name="8 Inch Iterative Dispense.lvclass" Type="LVClass" URL="../../Classes/Routine/Dispense/Iterative Dispense/8 inch/8 Inch Iterative Dispense.lvclass"/>
 				<Item Name="Sensor Dispense.lvclass" Type="LVClass" URL="../Sensor Dispense.lvclass"/>
 			</Item>
 			<Item Name="Controllers" Type="Folder">
