@@ -6,11 +6,12 @@ def test_im(loc):
     im = cv2.imread('off1.png')
     return str(np.shape(im))
 
-def get_mu_per_p():
-    diag = 0.2*np.sqrt(2) # in mm
-    xp = 597; yp = 251
+def get_mm_per_pix():
+    # diag = 0.2*np.sqrt(2) # in mm
+    # xp = 597; yp = 251
     # xp = 260; yp = 257 (0.1 mm by 0.1 mm) (approx 0.4 mu/pixel)
-    return diag/np.sqrt(np.square(xp)+np.square(yp))
+    # return diag/np.sqrt(np.square(xp)+np.square(yp))
+    return 0.200/470.7186
 
 def get_xp_yp(small, large):
     method = cv2.TM_SQDIFF_NORMED
@@ -28,7 +29,7 @@ def get_new_loc(loc):
     save_co, minval_s = get_xp_yp(fid, saved)
     trows,tcols = fid.shape[:2]
     if minval < 0.08:
-        return get_mu_per_p()*(live_co-save_co)
+        return get_mm_per_pix()*(live_co-save_co)
     return np.array([-0.1, 0.1, -86.235228, -8.7])
     # return np.array([781., -712., -0.235228, 0.])
     # return ch
