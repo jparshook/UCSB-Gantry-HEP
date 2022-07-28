@@ -38,7 +38,7 @@
 	<Item Name="Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Calculate Average Center.vi" Type="VI" URL="../Calculate Average Center.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%2!!!!#Q!%!!!!#U!+!!2N:7&amp;O!!!A1%!!!@````]!!2*4:7ZT&lt;X)A351A4'^D982J&lt;WY!!!5!#A!!'E"!!!(`````!!--1UAR)%RP9W&amp;U;7^O!!!71%!!!@````]!!QB976J5;'6U91!!&amp;U!$!"&amp;):8BB9G^B=G1A6G6S=WFP&lt;A!01!-!#&amp;"P=WFU;7^O!!!.1!I!"UZV&lt;76S;7-!(E"!!!(`````!!A12W&amp;O&gt;(*Z)%:J:(6D;7&amp;M=Q!!6!$Q!!Q!!!!#!!1!"1!!!!!!!!!!!!!!"A!(!!E$!!"Y!!!!!!!!#1!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!#A!!!1I!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!#1!%!!!!#U!+!!2N:7&amp;O!!!A1%!!!@````]!!2*4:7ZT&lt;X)A351A4'^D982J&lt;WY!!!5!#A!!'E"!!!(`````!!--1UAR)%RP9W&amp;U;7^O!!!71%!!!@````]!!QB976J5;'6U91!!$5!+!!&gt;/&gt;7VF=GFD!"Z!1!!"`````Q!'%%&gt;B&lt;H2S?3"';72V9WFB&lt;(-!!&amp;1!]!!-!!!!!A!%!!5!!!!!!!!!!!!!!!!!!!!(!Q!!?!!!!!!!!!E!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%+!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
