@@ -439,6 +439,21 @@
 				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="Draw Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Point.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
+				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
+				<Item Name="IMAQ Cast Image 2" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Cast Image 2"/>
+				<Item Name="Cast Image 2 Method.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/Cast Image 2 Method.ctl"/>
+				<Item Name="IMAQ Pattern Match Advanced Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Pattern Matching.llb/IMAQ Pattern Match Advanced Options.ctl"/>
+				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -469,16 +484,18 @@
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Aerotech/A3200/LabVIEW/2010/Bin/Aerotech.A3200.dll"/>
 			<Item Name="Aerotech.lvlib" Type="Library" URL="../../Drivers/Aerotech A3200/Aerotech.lvlib"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Initialize.vi"/>
-			<Item Name="Initiate Dispense.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Action-Status/Initiate Dispense.vi"/>
 			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Configure Pressure.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Configure/Configure Pressure.vi"/>
-			<Item Name="Close.vi" Type="VI" URL="../../../EFD Ultimus V/Public/Close.vi"/>
 			<Item Name="EFD Ultimus V.lvlib" Type="Library" URL="../../Drivers/EFD Ultimus V/EFD Ultimus V.lvlib"/>
 			<Item Name="PythonVersionsEnum.ctl" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Connectivity/Python/support/PythonVersionsEnum.ctl"/>
 			<Item Name="ToPythonVersionString.vi" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Connectivity/Python/support/ToPythonVersionString.vi"/>
+			<Item Name="Overlay Pattern Matching Results.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/examples/Vision/Overlay Utilities/Overlay Pattern Matching Results.vi"/>
+			<Item Name="Overlay Landmark.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/examples/Vision/Overlay Utilities/Overlay Landmark.vi"/>
+			<Item Name="AddError.vi" Type="VI" URL="../../Main VIs/AddError.vi"/>
+			<Item Name="Move.vi" Type="VI" URL="../../Main VIs/include/Move.vi"/>
+			<Item Name="GetHeightDistanceSensor.vi" Type="VI" URL="../../Main VIs/include/GetHeightDistanceSensor.vi"/>
+			<Item Name="PythonPlotter.vi" Type="VI" URL="../../Main VIs/Utilities/PythonPlotter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

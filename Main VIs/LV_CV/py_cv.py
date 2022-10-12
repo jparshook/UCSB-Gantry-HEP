@@ -30,6 +30,7 @@ def get_new_loc(loc):
     trows,tcols = fid.shape[:2]
     if minval < 0.08:
         return get_mm_per_pix()*(live_co-save_co)
+    return np.array([-0.1, -0.1, -0.1, 0])
     return np.array([-0.1, 0.1, -86.235228, -8.7])
     # return np.array([781., -712., -0.235228, 0.])
     # return ch
