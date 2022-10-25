@@ -13,6 +13,7 @@ def get_mm_per_pix():
     # return diag/np.sqrt(np.square(xp)+np.square(yp))
     return 0.200/470.7186
 
+'''This fuction finds the "small" image in the "large" image. '''
 def get_xp_yp(small, large):
     method = cv2.TM_SQDIFF_NORMED
     result = cv2.matchTemplate(small, large, method)    
@@ -20,6 +21,7 @@ def get_xp_yp(small, large):
     MPx,MPy = mnLoc
     return np.array([MPx, MPy]), mn 
 
+'''"live" is the image as read from the camera in current time. "fid" refers to a cropped image of the fiducial. "saved" is an image for reference with the fiducial at the center of the screen. '''
 def get_new_loc(loc):
     live = cv2.imread('LV_CV/save_im.png')
     saved = cv2.imread('LV_CV/ref2.png')
