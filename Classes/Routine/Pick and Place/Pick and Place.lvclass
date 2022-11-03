@@ -62,7 +62,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 		<Item Name="Add Tool Offset.vi" Type="VI" URL="../Add Tool Offset.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#;!!!!"A!%!!!!"1!+!!!31%!!!@````]!!16"=H*B?1!.1!I!"UZV&lt;76S;7-!&amp;E"!!!(`````!!-)7&amp;F;6'BF&gt;'%!!&amp;1!]!!-!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!%!Q!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-+!!!!!!%!"1!!!!!</Property>
