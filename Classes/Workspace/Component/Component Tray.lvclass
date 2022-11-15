@@ -38,13 +38,13 @@
 	<Item Name="Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Calculate Average Center.vi" Type="VI" URL="../Calculate Average Center.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!#1!%!!!!#U!+!!2N:7&amp;O!!!A1%!!!@````]!!2*4:7ZT&lt;X)A351A4'^D982J&lt;WY!!!5!#A!!'E"!!!(`````!!--1UAR)%RP9W&amp;U;7^O!!!71%!!!@````]!!QB976J5;'6U91!!$5!+!!&gt;/&gt;7VF=GFD!"Z!1!!"`````Q!'%%&gt;B&lt;H2S?3"';72V9WFB&lt;(-!!&amp;1!]!!-!!!!!A!%!!5!!!!!!!!!!!!!!!!!!!!(!Q!!?!!!!!!!!!E!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!))!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!#1!%!!!!#U!+!!2N:7&amp;O!!!A1%!!!@````]!!2*4:7ZT&lt;X)A351A4'^D982J&lt;WY!!!5!#A!!'E"!!!(`````!!--1UAR)%RP9W&amp;U;7^O!!!71%!!!@````]!!QB976J5;'6U91!!$5!+!!&gt;/&gt;7VF=GFD!"Z!1!!"`````Q!'%%&gt;B&lt;H2S?3"';72V9WFB&lt;(-!!&amp;1!]!!-!!!!!A!%!!5!!!!!!!!!!!!!!!!!!!!(!Q!!?!!!!!!!!!E!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%+!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
 		</Item>
 		<Item Name="Find Average Center.vi" Type="VI" URL="../Find Average Center.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'N!!!!#!!%!!!!$5!+!!&gt;/&gt;7VF=GFD!":!1!!"`````Q!"#&amp;B:7F2I:82B!!#'1(!!'!!!!!%!!!"M176S&lt;X2F9WAO14-S-$!O1W^O&gt;(*P&lt;'RF=CQA176S&lt;X2F9WAO14-S-$!M)&amp;:F=H.J&lt;WY^-#YQ,D!O-#QA1X6M&gt;(6S:4VO:86U=G&amp;M,#"1&gt;7*M;7.,:8F5&lt;WNF&lt;DUU.TBF.T)X-4FD-T)X-T6F#E&gt;B&lt;H2S?3"0&gt;81!!!^!!Q!)5'^T;82J&lt;WY!!"&amp;!!Q!,6(*B?3"/&gt;7VC:8)!B%"Q!"A!!!!"!!!!&lt;%&amp;F=G^U:7.I,E%T-D!Q,E.P&lt;H2S&lt;WRM:8)M)%&amp;F=G^U:7.I,E%T-D!Q,#"7:8*T;7^O04!O-#YQ,D!M)%.V&lt;(2V=G5^&lt;G6V&gt;(*B&lt;#QA5(6C&lt;'FD3W6Z6'^L:7Y^.$=Y:4=S.T%Z9T-S.T-V:1F(97ZU=HEA37Y!6!$Q!!Q!!!!#!!!!!Q!!!!1!!!!&amp;!!!!!A!!!!9$!!"Y!!!!!!!!#1!!!!!!!!!.#Q!!!!!!!!A!!!!!!!!!#!!!!!!!!!))!!!!!!!!!!I!!!!!!1!(!!!!!!</Property>
