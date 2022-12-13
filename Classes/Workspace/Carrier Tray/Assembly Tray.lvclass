@@ -71,7 +71,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
 		</Item>
 		<Item Name="Carrier Tray Global.vi" Type="VI" URL="../Carrier Tray Global.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'J!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!,6(*B?3"/&gt;7VC:8)!'E"!!!(`````!!5-7&amp;F;6'BF&gt;'%A&lt;X6U!!!Y1(!!(A!!&amp;R6"=X.F&lt;7*M?3"5=G&amp;Z,GRW9WRB=X-!&amp;E.B=H*J:8)A6(*B?3ZM&gt;G.M98.T)$)!!#6!&amp;A!$#EFO;82J97RJ?G5%5G6B:!68=GFU:1!'17.U;7^O!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!5!#A!!(%"!!!,``````````Q!+#VB:7F2I:82B)'FO!$:!=!!?!!!8&amp;5&amp;T=W6N9GRZ)&amp;2S98EO&lt;(:D&lt;'&amp;T=Q!51W&amp;S=GFF=C"5=G&amp;Z,GRW9WRB=X-!!'%!]!!-!!-!"!!'!!=!"!!%!!1!#!!*!!1!#Q!-!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!A!!!!+!!!!!!!!!AA!!!!)!!!.!!!!$!!!!!!!!!!!!!!"!!U!!!!!</Property>

@@ -488,14 +488,16 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="EFD Ultimus V.lvlib" Type="Library" URL="../../Drivers/EFD Ultimus V/EFD Ultimus V.lvlib"/>
-			<Item Name="PythonVersionsEnum.ctl" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Connectivity/Python/support/PythonVersionsEnum.ctl"/>
-			<Item Name="ToPythonVersionString.vi" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Connectivity/Python/support/ToPythonVersionString.vi"/>
 			<Item Name="Overlay Pattern Matching Results.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/examples/Vision/Overlay Utilities/Overlay Pattern Matching Results.vi"/>
 			<Item Name="Overlay Landmark.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/examples/Vision/Overlay Utilities/Overlay Landmark.vi"/>
 			<Item Name="AddError.vi" Type="VI" URL="../../Main VIs/AddError.vi"/>
 			<Item Name="Move.vi" Type="VI" URL="../../Main VIs/include/Move.vi"/>
 			<Item Name="GetHeightDistanceSensor.vi" Type="VI" URL="../../Main VIs/include/GetHeightDistanceSensor.vi"/>
 			<Item Name="PythonPlotter.vi" Type="VI" URL="../../Main VIs/Utilities/PythonPlotter.vi"/>
+			<Item Name="PythonVersionsEnum.ctl" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Connectivity/Python/support/PythonVersionsEnum.ctl"/>
+			<Item Name="ToPythonVersionString.vi" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Connectivity/Python/support/ToPythonVersionString.vi"/>
+			<Item Name="PythonVersionsEnum.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/examples/Connectivity/Python/support/PythonVersionsEnum.ctl"/>
+			<Item Name="ToPythonVersionString.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/examples/Connectivity/Python/support/ToPythonVersionString.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
