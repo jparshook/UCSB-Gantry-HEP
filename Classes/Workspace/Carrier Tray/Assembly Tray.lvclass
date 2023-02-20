@@ -98,7 +98,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Storage Vacuum Global.vi" Type="VI" URL="../Storage Vacuum Global.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;R!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!J!)123:7&amp;E!!!Y1(!!(A!!&amp;R6"=X.F&lt;7*M?3"5=G&amp;Z,GRW9WRB=X-!&amp;E.B=H*J:8)A6(*B?3ZM&gt;G.M98.T)$)!!#6!&amp;A!$#EFO;82J97RJ?G5%5G6B:!68=GFU:1!'17.U;7^O!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!)168=GFU:1!W1(!!(A!!&amp;R6"=X.F&lt;7*M?3"5=G&amp;Z,GRW9WRB=X-!&amp;%.B=H*J:8)A6(*B?3ZM&gt;G.M98.T!!"B!0!!$!!$!!1!"1!'!!1!"!!%!!=!#!!%!!E!#A-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!)!!!!#!!!!!!!!!!)!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!,!!!!!!</Property>

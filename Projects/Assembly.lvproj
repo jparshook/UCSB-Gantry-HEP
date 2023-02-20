@@ -494,10 +494,8 @@
 			<Item Name="Move.vi" Type="VI" URL="../../Main VIs/include/Move.vi"/>
 			<Item Name="GetHeightDistanceSensor.vi" Type="VI" URL="../../Main VIs/include/GetHeightDistanceSensor.vi"/>
 			<Item Name="PythonPlotter.vi" Type="VI" URL="../../Main VIs/Utilities/PythonPlotter.vi"/>
-			<Item Name="PythonVersionsEnum.ctl" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Connectivity/Python/support/PythonVersionsEnum.ctl"/>
-			<Item Name="ToPythonVersionString.vi" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2020/examples/Connectivity/Python/support/ToPythonVersionString.vi"/>
-			<Item Name="PythonVersionsEnum.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/examples/Connectivity/Python/support/PythonVersionsEnum.ctl"/>
 			<Item Name="ToPythonVersionString.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/examples/Connectivity/Python/support/ToPythonVersionString.vi"/>
+			<Item Name="PythonVersionsEnum.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/examples/Connectivity/Python/support/PythonVersionsEnum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
