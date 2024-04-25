@@ -1,0 +1,8 @@
+lvfile
+database_postgres
+	uploaddata_db
+	postgres_tools
+		post_gres_tools
+		conn
+
+All need to be imported relative to the place where labview was first opened.
